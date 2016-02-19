@@ -1,0 +1,7 @@
+Software-Fenster geladen
+Icons werden initialisiert
+Verfügbare COM-Ports werden abgefragt
+Alle LngFiles werden ermittelt
+Sprache wird gesetzt
+
+

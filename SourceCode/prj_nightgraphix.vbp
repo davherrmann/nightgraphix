@@ -1,0 +1,86 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Module=mdl_public; mdl_public.bas
+Module=mdl_draw; mdl_draw.bas
+Module=mdl_array; mdl_array.bas
+Module=mdl_init; mdl_init.bas
+Object={648A5603-2C6E-101B-82B6-000000000014}#1.1#0; MSCOMM32.OCX
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; comdlg32.ocx
+Module=mdl_maths; mdl_maths.bas
+Module=mdl_text; mdl_text.bas
+Module=mdl_filesystem; mdl_filesystem.bas
+Object={6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0; COMCTL32.OCX
+Module=mdl_communication; mdl_communication.bas
+Form=frm_startoptions.frm
+Form=frm_writescreen.frm
+Module=mdl_comport; mdl_comport.bas
+Module=mdl_handledata; mdl_handledata.bas
+Form=frm_optionshardware.frm
+Class=cls_font; cls_font.cls
+Form=frm_nightgraphix.frm
+Reference=*\G{3D5C6BF0-69A3-11D0-B393-00A0C9055D8E}#1.0#0#..\..\..\..\..\..\..\..\Programme\Gemeinsame Dateien\designer\MSDERUN.DLL#Microsoft Data Environment Instance 1.0 (SP4)
+Reference=*\G{00000205-0000-0010-8000-00AA006D2EA4}#2.5#0#..\..\..\..\..\..\..\..\Programme\Gemeinsame Dateien\system\ado\msado25.tlb#Microsoft ActiveX Data Objects 2.5 Library
+Form=frm_choosetopbottom.frm
+Module=mdl_icons; mdl_icons.bas
+Form=frm_choosefileversion.frm
+Module=mdl_hookscrollwheel; mdl_hookscrollwheel.bas
+Object={BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0; TABCTL32.OCX
+Form=frm_about.frm
+Form=frm_optionssoftware.frm
+Module=mdl_language; mdl_language.bas
+Class=cls_lngspecstrings; cls_lngspecstrings.cls
+ResFile32="IconsNew.RES"
+IconForm="frm_nightgraphix"
+Startup="Sub Main"
+HelpFile=""
+Title="NG1.0"
+ExeName32="NG1.0.exe"
+Path32=".."
+Command32=""
+Name="prj_nightgraphix"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=142
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="DH"
+VersionLegalCopyright="David Herrmann & Tobias Tetzlaff"
+VersionProductName="NightVision"
+CompilationType=-1
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[TaskList]
+Num=0
+
+[TASK1]
+Description=
+Status=
+Priority=
+Comment=
+AssignedTo=
+
+[TASK2]
+Description=
+Status=
+Priority=
+AssignedTo=
+Comment=

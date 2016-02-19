@@ -1,0 +1,21 @@
+Datei	Dateityp	Codezeilen	Kommentarzeilen	Gesamtzeilen	Prozeduren	Steuerelemente
+prj_nightgraphix	Projekt	2756 (53%)	2432 (46%)	5188	203	119
+cls_font (cls_font.cls)	Klassenmodul	185	199	384	25	0
+frm_choosefileversion (frm_choosefileversion.frm)	Formular	19	19	38	3	9
+frm_choosetopbottom (frm_choosetopbottom.frm)	Formular	10	12	22	2	5
+frm_nightgraphix (frm_nightgraphix.frm)	Formular	779	542	1321	43	42
+frm_optionshardware (frm_optionshardware.frm)	Formular	76	92	168	13	15
+frm_optionssoftware (frm_optionssoftware.frm)	Formular	158	147	305	18	30
+frm_splashscreen (frm_startoptions.frm)	Formular	19	22	41	2	12
+frm_writereadscreen (frm_writescreen.frm)	Formular	38	38	76	3	6
+mdl_array (mdl_array.bas)	Modul	47	49	96	4	0
+mdl_communication (mdl_communication.bas)	Modul	130	169	299	10	0
+mdl_comport (mdl_comport.bas)	Modul	44	51	95	3	0
+mdl_draw (mdl_draw.bas)	Modul	454	348	802	29	0
+mdl_filesystem (mdl_filesystem.bas)	Modul	310	298	608	20	0
+mdl_handledata (mdl_handledata.bas)	Modul	49	64	113	4	0
+mdl_icons (mdl_icons.bas)	Modul	28	14	42	1	0
+mdl_init (mdl_init.bas)	Modul	203	175	378	13	0
+mdl_maths (mdl_maths.bas)	Modul	81	84	165	7	0
+mdl_public (mdl_public.bas)	Modul	30	32	62	1	0
+mdl_text (mdl_text.bas)	Modul	96	77	173	2	0

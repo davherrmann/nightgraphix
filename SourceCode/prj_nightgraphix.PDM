@@ -1,0 +1,198 @@
+[Root]
+Most Recent Package=Standardm‰ﬂiges Setup-Paket 1
+
+
+[Package|DEP-Datei 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0
+
+[Package|DEP-Datei 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DEP-Datei 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DEP-Datei 1|Files Found]
+
+[Package|DEP-Datei 1|Files Released]
+
+[Package|DEP-Datei 1|Missing Dependency Information]
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll=
+
+[Package|DEP-Datei 1|Out-of-Date Dependency Information]
+
+[Package|DEP-Datei 1|Files Added]
+
+[Package|DEP-Datei 1|Files Removed]
+
+[Package|DEP-Datei 1|Files In Project]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMDE.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGDE.DLL=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\CMCTLDE.DLL=Yes
+C:\Programme\Gemeinsame Dateien\DESIGNER\MSDERUN.DLL=Yes
+C:\Programme\Gemeinsame Dateien\System\ado\msado15.dll=Yes
+C:\Programme\Gemeinsame Dateien\System\ado\msado25.tlb=Yes
+
+[Package|DEP-Datei 1|Configure Registry Files]
+Applicable=
+
+[Package|DEP-Datei 1|Configure Remote Servers]
+Applicable=
+
+[Package|DEP-Datei 1|Install Locations]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLDE.DLL=$(WinSysPath)
+C:\Programme\Gemeinsame Dateien\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Programme\Gemeinsame Dateien\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Programme\Gemeinsame Dateien\System\ado\msado25.tlb=$(CommonFilesSys)\ADO
+
+[Package|DEP-Datei 1|Configure Shared Files]
+Applicable=
+
+[Package|DEP-Datei 1|DepFile]
+DepCabFile=NG1.0.CAB
+DepCabRun=NG1.0.INF
+
+[Package|DEP-Datei 1|Package]
+PackageFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0
+ProjectFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\SourceCode
+ServerSideCab=
+File1=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\Setup
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Found]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Missing Dependency Information]
+C:\WINDOWS\system32\msimg32.dll=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Added]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Removed]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files In Project]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMDE.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGDE.DLL=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\CMCTLDE.DLL=Yes
+C:\Programme\Gemeinsame Dateien\DESIGNER\MSDERUN.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Install Locations]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLDE.DLL=$(WinSysPath)
+C:\Programme\Gemeinsame Dateien\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Shared Files]
+Applicable=Yes
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\NG1.0.exe=No
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=NG1.0
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|IconGroups]
+Group0=NG1.0
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|NG1.0]
+Icon1=NG1.0.exe
+Title1=NG1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Package]
+PackageFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\Setup
+ProjectFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\SourceCode
+ServerSideCab=
+File1=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\Setup\setup.exe
+File2=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\Setup\Setup.Lst
+File3=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightGraphix\NG1.0\Setup\NG1.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

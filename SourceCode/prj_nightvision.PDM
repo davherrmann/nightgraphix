@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=SetupNV
+
+
+[Package|SetupNV|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\Setup
+
+[Package|SetupNV|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SetupNV|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SetupNV|Files Found]
+
+[Package|SetupNV|Files Released]
+
+[Package|SetupNV|Missing Dependency Information]
+
+[Package|SetupNV|Out-of-Date Dependency Information]
+
+[Package|SetupNV|Files Added]
+
+[Package|SetupNV|Files Removed]
+
+[Package|SetupNV|Files In Project]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\NV1.5.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6DE.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\MSCOMDE.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGDE.DLL=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\CMCTLDE.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SetupNV|Configure Registry Files]
+Applicable=No
+
+[Package|SetupNV|Configure Remote Servers]
+Applicable=No
+
+[Package|SetupNV|Install Locations]
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\NV1.5.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGDE.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMCTLDE.DLL=$(WinSysPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SetupNV|Configure Shared Files]
+Applicable=Yes
+C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\NV1.5.exe=No
+
+[Package|SetupNV|Distribution]
+Type=single
+Size=
+Title=NightVision V1.5
+
+[Package|SetupNV|IconGroups]
+Group0=NightVision V1.5
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SetupNV|NightVision V1.5]
+Icon1=NV1.5.exe
+Title1=NightVision V1.5
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SetupNV|Package]
+PackageFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\Setup
+ProjectFolder=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\SourceCode
+ServerSideCab=
+File1=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\Setup\setup.exe
+File2=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\Setup\Setup.Lst
+File3=C:\Dokumente und Einstellungen\David\Eigene Dateien\Visual Basic\Eigene Programme\NightVision\NV1.5\Setup\NV1.5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

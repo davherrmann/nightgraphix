@@ -1,0 +1,89 @@
+<NG-LanguageFile Englisch>
+//frm_nightgraphix
+//All tool buttons on the left side
+frm_nightgraphix.cmd_tool(0).ToolTipText = 'Draw single pixels'
+frm_nightgraphix.cmd_tool(1).ToolTipText = 'Draw circles'
+frm_nightgraphix.cmd_tool(2).ToolTipText = 'Paste text'
+frm_nightgraphix.cmd_tool(3).ToolTipText = 'Choose color'
+frm_nightgraphix.cmd_tool(4).ToolTipText = 'Import picture'
+frm_nightgraphix.cmd_tool(5).ToolTipText = 'Invert'
+frm_nightgraphix.cmd_tool(6).ToolTipText = 'Clear'
+frm_nightgraphix.cmd_font.ToolTipText = 'Choose Font'
+
+//All buttons in the toolbar
+frm_nightgraphix.tlb_toolbar.Buttons(1).ToolTipText = 'New file'
+frm_nightgraphix.tlb_toolbar.Buttons(2).ToolTipText = 'Open file'
+frm_nightgraphix.tlb_toolbar.Buttons(4).ToolTipText = 'Save file'
+frm_nightgraphix.tlb_toolbar.Buttons(5).ToolTipText = 'Save as..'
+frm_nightgraphix.tlb_toolbar.Buttons(9).ToolTipText = 'Zoom +'
+frm_nightgraphix.tlb_toolbar.Buttons(10).ToolTipText = 'Zoom -'
+frm_nightgraphix.tlb_toolbar.Buttons(12).ToolTipText = 'Write EEPROM'
+frm_nightgraphix.tlb_toolbar.Buttons(13).ToolTipText = 'Read EEPROM'
+frm_nightgraphix.tlb_toolbar.Buttons(15).ToolTipText = 'Connect'
+frm_nightgraphix.tlb_toolbar.Buttons(16).ToolTipText = 'Disconnect'
+frm_nightgraphix.tlb_toolbar.Buttons(17).ToolTipText = 'Start demo'
+frm_nightgraphix.tlb_toolbar.Buttons(18).ToolTipText = 'Stop demo'
+frm_nightgraphix.tlb_toolbar.Buttons(20).ToolTipText = 'Options - Software'
+frm_nightgraphix.tlb_toolbar.Buttons(21).ToolTipText = 'Options - Hardware'
+frm_nightgraphix.tlb_toolbar.Buttons(22).ToolTipText = 'About NightGraphiX'
+frm_nightgraphix.tlb_toolbar.Buttons(24).ToolTipText = 'Exit NG'
+
+//frm_optionssoftware
+frm_optionssoftware.Caption = 'NG1.0 - Options - Software'
+frm_optionssoftware.cmd_abbrechen.Caption = 'Cancel'
+//First Tab - System
+frm_optionssoftware.fra_demogröße.Caption = 'LEDs'
+frm_optionssoftware.lbl_beschriftung(1).Caption = 'On the left you can choose your NGX-System. On the right you can insert your rotor size, after that you click on "Save rotor size".'
+frm_optionssoftware.cmd_saverotorsize.Caption = 'Save rotor size'
+frm_optionssoftware.fra_rotorgröße.Caption = 'Rotor size'
+//Second Tab - Hardware
+frm_optionssoftware.opt_richtung(0).Caption = 'Right'
+frm_optionssoftware.opt_richtung(1).Caption = 'Left'
+frm_optionssoftware.fra_drehrichtung.Caption = 'Rot. direction'
+frm_optionssoftware.fra_offset.Caption = 'Offset column'
+frm_optionssoftware.fra_lipocapacity.Caption = 'LiPo capacity'
+frm_optionssoftware.lbl_beschriftung(2).Caption = 'On the left you can select wether your heli rotates clockwise or anticlockwise. Moreover you can choose the offset column. On the right you can insert the capacity of your rechargable battery.'
+//Third Tab - Connection
+frm_optionssoftware.tab_optionen.TabCaption(2) = 'Connection'
+frm_optionssoftware.lbl_beschriftung(3).Caption = 'Please choose the ports which should be checked for NGX-Hardware while connecting.'
+//Fourth Tab - Language
+frm_optionssoftware.tab_optionen.TabCaption(3) = 'Language'
+frm_optionssoftware.lbl_beschriftung(4).Caption = 'Please choose the language you want to use in NG.'
+
+//frm_optionshardware
+frm_optionshardware.fra_liposchwellwert.Caption = 'LiPo Threshold'
+frm_optionshardware.fra_animationsrate.Caption = 'Animation rate'
+frm_optionshardware.fra_animationframes.Caption = 'Anim. - Frames'
+frm_optionshardware.cmd_abbrechen.Caption = 'Cancel'
+
+//frm_about
+frm_about.Caption = 'About NightGraphiX V1.0'
+
+//frm_writereadscreen
+frm_writereadscreen.cmd_abbrechen.Caption = 'Cancel'
+frm_writereadscreen.fra_frame(0).Caption = 'Picture number (1,2,3)'
+
+//Language specific strings
+LngSpecStrings.LookingForHardware = 'Looking for hardware ...'
+LngSpecStrings.PortComX = 'Port Com '
+LngSpecStrings.NotFoundNGXHardware = 'Did not found any NGX hardware!'
+LngSpecStrings.Columns = ' Column(s)'
+LngSpecStrings.Seconds = ' Seconds'
+LngSpecStrings.Frames = 'Frames'
+LngSpecStrings.ChooseWhereToSave = 'Please choose where you want to save the picture:'
+LngSpecStrings.ChooseWhichToRead = 'Please choose which picture you want to read:'
+LngSpecStrings.ReadOptions = 'Read - Options'
+LngSpecStrings.WriteOptions = 'Write - Options'
+LngSpecStrings.PictureNumber = 'Picture number'
+LngSpecStrings.Picture = 'Picture'
+LngSpecStrings.AskToSave = 'Do you want the file?'
+LngSpecStrings.Warning = 'Warning'
+LngSpecStrings.Attention = 'Attention'
+LngSpecStrings.Error = 'Error'
+LngSpecStrings.InvalidRotorSize = 'Invalid rotor size for this system!'
+LngSpecStrings.AskToKeepOldRotorSize = 'Do you want to keep the old rotor size?'
+LngSpecStrings.InvalidOffset = 'Invalid offset'
+LngSpecStrings.AskToKeepOldOffset = 'Do you want to keep the old offset?'
+LngSpecStrings.RotorSizeTooSmall = 'Rotor size too small! Old value is kept.'
+LngSpecStrings.LanguageError = 'An error occured while changing the language!'
+
