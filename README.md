@@ -10,6 +10,8 @@ But hey:
 * custom protocol to send the data to the microcontroller in the RC helicopter
 * image import
 
+[It all started here...](http://www.mikrocontroller.net/topic/53535)
+
 [Adafruit blog article about our project](https://blog.adafruit.com/2009/08/04/nightgraphixde-rgb-led-pov-for-rc-choppers/)
 
 ![Nightgraphix Software for Windows](nightgraphix-software.jpg)
